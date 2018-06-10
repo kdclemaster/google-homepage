@@ -1,11 +1,42 @@
+a{
+	color:rgb(0,0,0);
+	text-decoration:none;
+}
+a:hover{
+	color:rgb(0,0,0);
+	text-decoration:underline;
+}
+
+nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+nav li{
+	margin:5px;
+	display:inline;
+}
+
+#left-nav{
+	float:left;
+}
+#right-nav{
+	float:right;
+}
+#nine-square{
+	width:20px;
+	height:20px;
+}
+#content{
+	padding-top:5%;
+}
 .logo{
 	display: block;
 	margin:auto;
 	width: 45%;
 }
 .logo img{
-	height:250px;
-	width:450px;
+	width:65%;
 	margin:auto;
 }
 .search{
